@@ -16,6 +16,9 @@ print("Followers:", followers)
 
 
 #Activity 3
+followers = 100
+
+
 followers += 50
 print("Day 1:", followers)
 
