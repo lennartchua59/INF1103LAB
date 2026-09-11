@@ -1,3 +1,21 @@
+commit 323b757e1ea12dac58964ce38eaa13c97eae0180
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 13:17:08 2026 +0800
+
+    images added
+
+commit 8ff7fe382592797549194061d15f21fd7dc3d2c1
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:51:04 2026 +0800
+
+    Add Dockerfile to containerize auditor.py
+
+commit b1da6cb376f0a5216674405e1251b7e8cb77e474
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:39:48 2026 +0800
+
+    git log added
+
 commit 4592a1b2c251ceae365344a8605341564be783af
 Author: Lennart Chua <lennartchua59@gmail.com>
 Date:   Fri Sep 11 12:35:16 2026 +0800
