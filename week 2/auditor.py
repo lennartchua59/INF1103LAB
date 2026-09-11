@@ -11,3 +11,5 @@ while True:
         print("Error: please enter a whole number.")
         failed_entries = failed_entries + 1
         continue
+
+    stock_quantity = int(user_input)
