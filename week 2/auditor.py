@@ -18,3 +18,6 @@ while True:
         print("Error: negative stock quantity is not allowed.")
         failed_entries = failed_entries + 1
         continue
+
+    total_inventory = total_inventory + stock_quantity
+    print("Accepted. Total inventory is now:", total_inventory)
