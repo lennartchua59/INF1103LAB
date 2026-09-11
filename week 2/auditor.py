@@ -21,3 +21,7 @@ while True:
 
     total_inventory = total_inventory + stock_quantity
     print("Accepted. Total inventory is now:", total_inventory)
+
+    if total_inventory > 500:
+        print("Overstock Alert! Total inventory has exceeded 500 units.")
+        break
