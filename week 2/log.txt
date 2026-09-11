@@ -1,0 +1,53 @@
+commit 4592a1b2c251ceae365344a8605341564be783af
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:35:16 2026 +0800
+
+    Requirement 8: report total units processed and failed entries
+
+commit a3ed7723d2121e23163d5b49d6b9ca3ad1138fa7
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:34:07 2026 +0800
+
+    Requirement 7: trigger overstock alert and break loop when total exceeds 500
+
+commit f86fed47eac18375173e2d21365e8caf48581f14
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:10:50 2026 +0800
+
+    Requirement 6: keep running total of inventory
+
+commit 4fe0f95ca765cf5ee93fff44041f3d6bb1ea7e0c
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:08:35 2026 +0800
+
+    Requirement 5: reject negative stock quantities
+
+commit 1029ec9e74e6814d58d4c8f140bf040f2317ce40
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:07:37 2026 +0800
+
+    Requirement 3: convert valid input to integer
+
+commit bbeeaa18d23b454cf381bf6d679de14bf2892c64
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:07:31 2026 +0800
+
+    Requirement 4: reject non-numeric input using isdigit()
+
+commit 542b9810e6b554609b54260d6b40c17a7c473768
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:02:50 2026 +0800
+
+    Step 2: Add main loop asking for stock quantity until quit
+
+commit 534cfa4ae830b13a4899f7c6cfc03c02df776cfc
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 11:58:10 2026 +0800
+
+    Initialize inventory and failed entry counters
+
+commit 08992c4dc471c08a2484789266cd86ba2a5f45f8
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 11:50:23 2026 +0800
+
+    first commit
