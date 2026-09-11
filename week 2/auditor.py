@@ -13,3 +13,8 @@ while True:
         continue
 
     stock_quantity = int(user_input)
+
+    if stock_quantity < 0:
+        print("Error: negative stock quantity is not allowed.")
+        failed_entries = failed_entries + 1
+        continue
