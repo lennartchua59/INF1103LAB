@@ -6,3 +6,8 @@ while True:
 
     if user_input == "quit":
         break
+
+    if not user_input.isdigit():
+        print("Error: please enter a whole number.")
+        failed_entries = failed_entries + 1
+        continue
