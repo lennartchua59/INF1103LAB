@@ -1,3 +1,45 @@
+commit c38ac6ba92ebca09f4d4df6d3257f5d27ba8d447
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:13:41 2026 +0800
+
+    Add self-reflection on pure functions vs printing inside functions
+
+commit d04ec5a751f6edf48a191288e1acfeeddbedfa88
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:13:13 2026 +0800
+
+    Add generate_report() and wire main loop to use all functions
+
+commit 980613585bdc85e85333b3903f42b4a3a0767a23
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:12:56 2026 +0800
+
+    Add calculate_tax() function to compute 10% delivery tax
+
+commit ffbb9f9c9995e70d5dac3b7d9b709e34c3dc232e
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:12:48 2026 +0800
+
+    Add process_delivery() function to calculate running total
+
+commit bc6439e53bdb3cc46243588fa7bece6dbd9c92b6
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:12:40 2026 +0800
+
+    Add get_valid_input() function for input handling and validation
+
+commit 8055882100c840783529023b445a0d34dd2fbbe0
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:12:25 2026 +0800
+
+    Copy week 2 auditor.py as modular_auditor.py backup
+
+commit a5405153b4754a816fc6f9b9219e3acaded4dcb8
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:04:50 2026 +0800
+
+    Add git log for week 3 submission
+
 commit 536be11f68c73213d61525f522717572b99ccbb4
 Author: lennartchua59 <ihighigt@gmail.com>
 Date:   Fri Sep 18 11:04:45 2026 +0800
