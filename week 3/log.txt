@@ -1,0 +1,214 @@
+commit 536be11f68c73213d61525f522717572b99ccbb4
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:04:45 2026 +0800
+
+    Add self-reflection on pure functions vs printing inside functions
+
+commit dbdb2d397e5d1ca88cddce24f15577ee22f6e6c0
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:04:33 2026 +0800
+
+    Add Dockerfile for week 3 modular auditor
+
+commit 6e94f4108f2f3ac7271b9081a000109027b95dca
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:04:15 2026 +0800
+
+    Add generate_report() and wire main loop to use all functions
+
+commit 61c2f70ebd9dc8472cf005792b5bd5c39686cf7c
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:04:05 2026 +0800
+
+    Add calculate_tax() function to compute 10% delivery tax
+
+commit d15a08fdef3d3c20090000162638417e86bc6a6a
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:03:58 2026 +0800
+
+    Add process_delivery() function to calculate running total
+
+commit 2c79a8e43a7c8db4214f99e5b9583490fe5b0499
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:03:52 2026 +0800
+
+    Add get_valid_input() function for input handling and validation
+
+commit 0f31a5dcd1b1624a98645e8c3f7bd643bcd7067e
+Author: lennartchua59 <ihighigt@gmail.com>
+Date:   Fri Sep 18 11:03:43 2026 +0800
+
+    Copy week 2 auditor.py as modular_auditor.py backup
+
+commit 3c46130c6970163001086427ca39c1bbb2466795
+Author: lennart chua <82433697+lennartchua59@users.noreply.github.com>
+Date:   Thu Sep 17 22:56:55 2026 +0800
+
+    Delete log.txt
+
+commit c5a8689a1da97645a0b45b919f4d735c1f14e3cf
+Author: lennart chua <82433697+lennartchua59@users.noreply.github.com>
+Date:   Fri Sep 11 17:12:09 2026 +0800
+
+    Delete hello.py
+
+commit 9f482ced6858d5ba282c12c1d2b11577de0c114a
+Merge: 86333f3 b6a8990
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 17:06:27 2026 +0800
+
+    Merge existing INF1103LAB repo history with week 1 and week 2 folders
+    
+    Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
+
+commit 86333f3089711071aa42c37a2b38a4d7a3c4a07c
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 17:06:17 2026 +0800
+
+    Add week 1 lab files
+    
+    Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
+
+commit ef92084f577824c5b1842d9717b5d4d289028e0b
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 16:26:30 2026 +0800
+
+    Remove .DS_Store files and add .gitignore
+
+commit d051f7892a84de53173b9d867ce51995a0d39ccc
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 13:21:01 2026 +0800
+
+    update to image
+
+commit 6ada51f7949845558c0380b769d2c6fc10721e56
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 13:18:13 2026 +0800
+
+    commit
+
+commit f32cb5637820989ddbbdb4a9b69304c6a6b3cc0b
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 13:17:22 2026 +0800
+
+    Update git log for final submission
+
+commit 323b757e1ea12dac58964ce38eaa13c97eae0180
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 13:17:08 2026 +0800
+
+    images added
+
+commit 8ff7fe382592797549194061d15f21fd7dc3d2c1
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:51:04 2026 +0800
+
+    Add Dockerfile to containerize auditor.py
+
+commit b1da6cb376f0a5216674405e1251b7e8cb77e474
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:39:48 2026 +0800
+
+    git log added
+
+commit 4592a1b2c251ceae365344a8605341564be783af
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:35:16 2026 +0800
+
+    Requirement 8: report total units processed and failed entries
+
+commit a3ed7723d2121e23163d5b49d6b9ca3ad1138fa7
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:34:07 2026 +0800
+
+    Requirement 7: trigger overstock alert and break loop when total exceeds 500
+
+commit f86fed47eac18375173e2d21365e8caf48581f14
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:10:50 2026 +0800
+
+    Requirement 6: keep running total of inventory
+
+commit 4fe0f95ca765cf5ee93fff44041f3d6bb1ea7e0c
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:08:35 2026 +0800
+
+    Requirement 5: reject negative stock quantities
+
+commit 1029ec9e74e6814d58d4c8f140bf040f2317ce40
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:07:37 2026 +0800
+
+    Requirement 3: convert valid input to integer
+
+commit bbeeaa18d23b454cf381bf6d679de14bf2892c64
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:07:31 2026 +0800
+
+    Requirement 4: reject non-numeric input using isdigit()
+
+commit 542b9810e6b554609b54260d6b40c17a7c473768
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 12:02:50 2026 +0800
+
+    Step 2: Add main loop asking for stock quantity until quit
+
+commit 534cfa4ae830b13a4899f7c6cfc03c02df776cfc
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 11:58:10 2026 +0800
+
+    Initialize inventory and failed entry counters
+
+commit 08992c4dc471c08a2484789266cd86ba2a5f45f8
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 11 11:50:23 2026 +0800
+
+    first commit
+
+commit b6a899059f7e7ccd7acdb574ab0597255df9dbe5
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 16:34:55 2026 +0800
+
+    activity 3 experimental
+
+commit 76b0206f04e89924c7e83337f358bc66f111c2fd
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 16:31:40 2026 +0800
+
+    comments
+
+commit aebcbda759ccb979228ef9a5d9921a12b8dbf57a
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 15:02:25 2026 +0800
+
+    log file added
+
+commit d5bee5a3691df7b3e66ceea1d67e75b519234740
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 15:01:05 2026 +0800
+
+    activity 5
+
+commit 67ec533ba088fa13f0086945a66af76595895d21
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 15:00:30 2026 +0800
+
+    activity 4
+
+commit a70a0848376381e00167ad72acfcc48021f5ed06
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 14:59:43 2026 +0800
+
+    activity 3
+
+commit 9643d69aa5a4498f1574388c36d8df924100fec5
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 14:58:58 2026 +0800
+
+    activity 2
+
+commit 9d43e2a93777e29b24314e7f9d818afbb71638a5
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Sep 4 14:58:18 2026 +0800
+
+    activity 1
