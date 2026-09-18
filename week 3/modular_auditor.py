@@ -1,3 +1,22 @@
+def get_valid_input():
+    user_input = input("Enter stock quantity (or 'quit' to stop): ")
+
+    if user_input == "quit":
+        return "quit"
+
+    if not user_input.isdigit():
+        print("Error: please enter a whole number.")
+        return None
+
+    stock_quantity = int(user_input)
+
+    if stock_quantity < 0:
+        print("Error: negative stock quantity is not allowed.")
+        return None
+
+    return stock_quantity
+
+
 total_inventory = 0
 failed_entries = 0
 
