@@ -21,6 +21,10 @@ def process_delivery(current_total, new_value):
     return current_total + new_value
 
 
+def calculate_tax(amount):
+    return amount * 0.10
+
+
 total_inventory = 0
 failed_entries = 0
 
