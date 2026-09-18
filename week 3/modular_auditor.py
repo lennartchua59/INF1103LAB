@@ -17,6 +17,10 @@ def get_valid_input():
     return stock_quantity
 
 
+def process_delivery(current_total, new_value):
+    return current_total + new_value
+
+
 total_inventory = 0
 failed_entries = 0
 
