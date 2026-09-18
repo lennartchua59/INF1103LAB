@@ -1,13 +1,11 @@
-Self-Reflection: Why should calculate_tax() return a value instead of printing it?
+Self-Reflection: Why is it better for calculate_tax() to return a value instead of printing it directly?
 
-Returning a value keeps calculate_tax() a pure function: it only computes and
-hands back a result, without deciding what happens to it. The caller decides
-whether to print it, add it to a running total, write it to a file, or send it
-somewhere else entirely.
+If calculate_tax() just prints the tax amount, that is the only thing it can ever do.
+But if it returns the tax amount instead, the caller gets to decide what to do with it -
+print it to the screen, save it to a running total, or write it to a file.
 
-If calculate_tax() printed the tax directly, that behavior would be baked into
-the function. If the manager later wants the tax sent to a file (or a database,
-or a report) instead of the screen, every place that calls calculate_tax()
-would need to be found and changed, and the function itself would need to be
-rewritten. By returning a value, the same function keeps working unchanged -
-only the code that uses the returned value needs to change.
+For example, if the manager suddenly wants the tax written to a file instead of shown
+on screen, I would not need to touch calculate_tax() at all. I would only need to change
+the code that calls it, so it writes the returned value to a file instead of printing it.
+If the function printed the tax directly, I would have to go inside the function and
+rewrite it. Returning a value keeps the function reusable for many different situations.
