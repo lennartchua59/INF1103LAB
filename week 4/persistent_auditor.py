@@ -71,6 +71,7 @@ while True:
         continue
 
     total_inventory = process_delivery(total_inventory, result)
+    history.append(result)
     tax = calculate_tax(result)
     print("Accepted. Total inventory is now:", total_inventory)
     print("Tax for this delivery:", tax)
@@ -80,3 +81,4 @@ while True:
         break
 
 generate_report(total_inventory, failed_entries)
+print("Transaction History:", history)
