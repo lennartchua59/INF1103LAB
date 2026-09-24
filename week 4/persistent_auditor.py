@@ -1,3 +1,28 @@
+import os
+
+
+def load_inventory():
+    total = 0
+    history = []
+
+    if not os.path.exists("inventory.txt"):
+        print("No inventory file found. Starting with empty inventory.")
+        return total, history
+
+    file = open("inventory.txt", "r")
+    lines = file.readlines()
+    file.close()
+
+    if len(lines) > 0:
+        total = int(lines[0])
+
+    for line in lines[1:]:
+        history.append(int(line))
+
+    print("Loaded inventory. Current total:", total)
+    return total, history
+
+
 def get_valid_input():
     user_input = input("Enter stock quantity (or 'quit' to stop): ")
 
@@ -32,7 +57,7 @@ def generate_report(total_units, failed_attempts):
     print("Number of Failed/Rejected Entries:", failed_attempts)
 
 
-total_inventory = 0
+total_inventory, history = load_inventory()
 failed_entries = 0
 
 while True:
