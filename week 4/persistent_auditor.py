@@ -23,6 +23,15 @@ def load_inventory():
     return total, history
 
 
+def save_inventory(total, history):
+    file = open("inventory.txt", "w")
+    file.write(str(total) + "\n")
+    for amount in history:
+        file.write(str(amount) + "\n")
+    file.close()
+    print("Inventory saved to inventory.txt")
+
+
 def get_valid_input():
     user_input = input("Enter stock quantity (or 'quit' to stop): ")
 
@@ -82,3 +91,4 @@ while True:
 
 generate_report(total_inventory, failed_entries)
 print("Transaction History:", history)
+save_inventory(total_inventory, history)
