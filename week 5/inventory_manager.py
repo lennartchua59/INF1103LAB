@@ -74,11 +74,28 @@ def update_stock(inventory):
     print("\nStock updated successfully!")
 
 
+def search_product(inventory):
+    print("\nSearch Product")
+    product_id = input("Enter Product ID: ")
+    product = find_product(inventory, product_id)
+
+    if product is None:
+        print("\nProduct not found.")
+        return
+
+    print("\nProduct Found")
+    print("-" * 48)
+    print("ID:", product["id"])
+    print("Name:", product["name"])
+    print("Price: $" + format(product["price"], ".2f"))
+    print("Stock:", product["stock"])
+    print("-" * 48)
+
+
 inventory = [
     {"id": "P001", "name": "Laptop", "price": 1200.00, "stock": 15},
     {"id": "P002", "name": "Mouse", "price": 25.50, "stock": 40},
     {"id": "P003", "name": "Keyboard", "price": 45.00, "stock": 25},
 ]
 display_all(inventory)
-update_stock(inventory)
-display_all(inventory)
+search_product(inventory)
