@@ -14,6 +14,13 @@ def display_all(inventory):
     print("-" * 48)
 
 
+def find_product(inventory, product_id):
+    for product in inventory:
+        if product["id"] == product_id:
+            return product
+    return None
+
+
 inventory = [
     {"id": "P001", "name": "Laptop", "price": 1200.00, "stock": 15},
     {"id": "P002", "name": "Mouse", "price": 25.50, "stock": 40},
