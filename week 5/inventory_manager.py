@@ -123,6 +123,33 @@ def show_menu():
     print("----------------------------")
 
 
+print("=" * 40)
+print("INVENTORY MANAGEMENT SYSTEM")
+print("=" * 40)
+print()
+
 inventory = load_inventory()
-display_all(inventory)
-save_inventory(inventory)
+
+while True:
+    show_menu()
+    option = input("\nEnter option: ")
+
+    if option == "1":
+        display_all(inventory)
+    elif option == "2":
+        add_product(inventory)
+    elif option == "3":
+        update_stock(inventory)
+    elif option == "4":
+        search_product(inventory)
+    elif option == "5":
+        print("\nSaving inventory...")
+        save_inventory(inventory)
+    elif option == "6":
+        print("\nSaving inventory before exit...")
+        save_inventory(inventory)
+        print("\nThank you for using Inventory Management System.")
+        print("Program terminated.")
+        break
+    else:
+        print("Invalid option. Please choose 1-6.")
