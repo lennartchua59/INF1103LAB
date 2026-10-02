@@ -1,0 +1,71 @@
+﻿commit dde40a38928b8ccb01464085e957f9b10538ba6f
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:12 2026 +0800
+
+    Week 5: add inventory.json saved from program run
+
+commit 8db0646273e0a3e3d994ad45d260855f1c860f0c
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:12 2026 +0800
+
+    Week 5: add Dockerfile
+
+commit 11aeaf3162da4df2b0f69e98a38285e0ecf5684b
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:11 2026 +0800
+
+    Week 5: add main menu loop
+
+commit a44a0ee86306fbc16b05100998a5b4d11a6d3c89
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:11 2026 +0800
+
+    Week 5: add show_menu()
+
+commit 193aeacea7f8c42931e105d8f3860a250b9b6f51
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:11 2026 +0800
+
+    Week 5: add save_inventory()
+
+commit 44bd800afd48e7ea817b8b958b1e9f9955c6051b
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:10 2026 +0800
+
+    Week 5: add load_inventory()
+
+commit 305ac52feccc4ac9c9880cf855125c7a879d04da
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:10 2026 +0800
+
+    Week 5: add search_product()
+
+commit 281d5a92f6cc8bfae0357a9e86f594e42a9b65b2
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:10 2026 +0800
+
+    Week 5: add update_stock()
+
+commit 95ba28d26f440013b1bc70f29312ffe8cc0a9385
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:09 2026 +0800
+
+    Week 5: add add_product()
+
+commit 11e64f4944f86d32493f7230febbdf7d53961b69
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:09 2026 +0800
+
+    Week 5: add find_product() helper
+
+commit db65bdb59830c229a24faad4d55bc7d29333ded2
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:09 2026 +0800
+
+    Week 5: add display_all()
+
+commit 5cd9392916ade51f9a5f0fe8007cd591c3133c33
+Author: lennartchua59 <lennartchua59@gmail.com>
+Date:   Fri Oct 2 12:20:09 2026 +0800
+
+    Week 5: add imports and inventory list of product dictionaries
