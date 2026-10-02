@@ -47,11 +47,38 @@ def add_product(inventory):
     print("\nProduct added successfully!")
 
 
+def update_stock(inventory):
+    print("\nUpdate Stock")
+    product_id = input("Enter Product ID: ")
+    product = find_product(inventory, product_id)
+
+    if product is None:
+        print("\nProduct not found.")
+        return
+
+    print("\nProduct Found:")
+    print("Name:", product["name"])
+    print("Current Stock:", product["stock"])
+
+    try:
+        new_stock = int(input("\nNew Stock Quantity: "))
+    except ValueError:
+        print("Error: please enter a whole number.")
+        return
+
+    if new_stock < 0:
+        print("Error: stock cannot be negative.")
+        return
+
+    product["stock"] = new_stock
+    print("\nStock updated successfully!")
+
+
 inventory = [
     {"id": "P001", "name": "Laptop", "price": 1200.00, "stock": 15},
     {"id": "P002", "name": "Mouse", "price": 25.50, "stock": 40},
     {"id": "P003", "name": "Keyboard", "price": 45.00, "stock": 25},
 ]
 display_all(inventory)
-add_product(inventory)
+update_stock(inventory)
 display_all(inventory)
