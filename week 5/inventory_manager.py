@@ -21,9 +21,37 @@ def find_product(inventory, product_id):
     return None
 
 
+def add_product(inventory):
+    print("\nAdd New Product")
+    product_id = input("Product ID: ")
+
+    if find_product(inventory, product_id) is not None:
+        print("Error: that Product ID already exists.")
+        return
+
+    name = input("Product Name: ")
+
+    try:
+        price = float(input("Price: "))
+        stock = int(input("Stock Quantity: "))
+    except ValueError:
+        print("Error: invalid price or stock quantity.")
+        return
+
+    if price < 0 or stock < 0:
+        print("Error: price and stock cannot be negative.")
+        return
+
+    product = {"id": product_id, "name": name, "price": price, "stock": stock}
+    inventory.append(product)
+    print("\nProduct added successfully!")
+
+
 inventory = [
     {"id": "P001", "name": "Laptop", "price": 1200.00, "stock": 15},
     {"id": "P002", "name": "Mouse", "price": 25.50, "stock": 40},
     {"id": "P003", "name": "Keyboard", "price": 45.00, "stock": 25},
 ]
+display_all(inventory)
+add_product(inventory)
 display_all(inventory)
