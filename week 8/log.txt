@@ -1,0 +1,215 @@
+commit cc7cf537bf03dd817f2b3cc894088cbea0dcd8ec
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:48 2026 +0800
+
+    Week 8: add saved inventory.json screenshot
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 42f4153c3cd597c9d03cfd6a588899c64e6bb184
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:48 2026 +0800
+
+    Week 8: add docker run screenshot with input and output
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 4c99858a864bc9f01ddabc6cc5a4db05d2d55c32
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:48 2026 +0800
+
+    Week 8: add docker build screenshot
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 89143f98f50cc162965f99b799fa735a62bef799
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:48 2026 +0800
+
+    Week 8: add reflection answers
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 3a997cb8a632a56bd73ca3ab05f178bc3691e7ec
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:48 2026 +0800
+
+    Week 8: add UML class diagram
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 676635deba38c3ba1ee9b41a0ce004c071849a52
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:48 2026 +0800
+
+    Week 8: update inventory.json saved from program run
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 55d7bf4d8b12b087192beeca976b944d3d028891
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:37 2026 +0800
+
+    Week 8: add starting inventory.json data
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 922d777ff366133b7a69ff7cab50daa2ac9f453f
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:28 2026 +0800
+
+    Week 8: add Dockerfile
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 5294f9c10eeeff0d5dd3c2de183c78678f28e46e
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:28 2026 +0800
+
+    Week 8: add main program loop
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit afe146ce1f0097d714d143b52accaca09cef7016
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:28 2026 +0800
+
+    Week 8: add search_product() menu function
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 5f6bd544b1efda523c9339758d59aa13b5633567
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:28 2026 +0800
+
+    Week 8: add update_stock() menu function
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit cbfbd514235a89aca21bd38fc3e02aaaebe2ede2
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:28 2026 +0800
+
+    Week 8: add add_product() menu function
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit dfc84c1bfa29a9fb93d426a80dde2c262633ebbf
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:28 2026 +0800
+
+    Week 8: add show_menu()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 67fa36e3e12b29afe2176f12ce79c672af2b86c4
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:27 2026 +0800
+
+    Week 8: add save_inventory()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 8ca7162343961acdfd96b3d7e33b5972d224b1ba
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:27 2026 +0800
+
+    Week 8: add load_inventory() to main program
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 5c34fbb54b20e3cc58470590667e8d8487a441b1
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Inventory.display_all()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit da008091dc466f43585c3f81d4203530467dcbe1
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Inventory.get_products()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit ec319baa97eecfbd1a62c7c64a98a73430f921a7
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Inventory.search_product()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 34fea9fc3285de5d8832cb6fc9a83817f856f2e7
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Inventory.add_product()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 44aa83bb64169db1f7a3a5a3cac5c102a3ba187e
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: create Inventory class with __init__
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 2185169affbd390a0eba4f820f9b648f4a6a4e64
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Product.display_information()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit f5a7561d2135842234a59bdd797c48e3a1aba964
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Product.update_stock() with validation
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 2c2f4da6c646213e5862ab719779c8c1aa602da5
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Product.get_stock()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 634a78e5e627be0f520078a01b496837dd72bb93
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Product.get_price()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit e1afddbf3a2d4386c133f97f67bf8b0c2aa8087e
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Product.get_name()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit f909146e80f84ef1274d9ed130da85cbc9bff9da
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: add Product.get_product_id()
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 17dd596135db49f0cf84fd437badcc4182a45629
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Thu Oct 22 12:45:17 2026 +0800
+
+    Week 8: create Product class with __init__
+    
+    Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
