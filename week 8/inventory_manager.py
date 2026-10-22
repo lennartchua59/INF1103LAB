@@ -43,3 +43,28 @@ def show_menu():
     print("5. Save Inventory")
     print("6. Exit")
     print("----------------------------")
+
+
+def add_product(inventory):
+    print("\nAdd New Product")
+    product_id = input("Product ID: ")
+
+    if inventory.search_product(product_id) is not None:
+        print("Error: that Product ID already exists.")
+        return
+
+    name = input("Product Name: ")
+
+    try:
+        price = float(input("Price: "))
+        stock = int(input("Stock Quantity: "))
+    except ValueError:
+        print("Error: invalid price or stock quantity.")
+        return
+
+    if price < 0 or stock < 0:
+        print("Error: price and stock cannot be negative.")
+        return
+
+    inventory.add_product(Product(product_id, name, price, stock))
+    print("\nProduct added successfully!")
