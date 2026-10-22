@@ -3,7 +3,7 @@
         "id": "P001",
         "name": "Laptop",
         "price": 1200.0,
-        "stock": 15
+        "stock": 12
     },
     {
         "id": "P002",
@@ -22,5 +22,11 @@
         "name": "Monitor",
         "price": 299.99,
         "stock": 10
+    },
+    {
+        "id": "P005",
+        "name": "Webcam",
+        "price": 59.9,
+        "stock": 20
     }
 ]
