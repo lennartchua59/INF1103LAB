@@ -15,3 +15,6 @@ class Product:
 
     def get_price(self):
         return self.__price
+
+    def get_stock(self):
+        return self.__stock
