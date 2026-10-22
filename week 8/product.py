@@ -23,3 +23,8 @@ class Product:
         if quantity < 0:
             raise ValueError("stock cannot be negative")
         self.__stock = quantity
+
+    def display_information(self):
+        print("ID:", self.__product_id, "| Name:", self.__name,
+              "| Price: $" + format(self.__price, ".2f"),
+              "| Stock:", self.__stock)
