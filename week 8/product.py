@@ -6,3 +6,6 @@ class Product:
         self.__name = name
         self.__price = price
         self.__stock = stock
+
+    def get_product_id(self):
+        return self.__product_id
