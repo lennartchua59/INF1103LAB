@@ -18,3 +18,8 @@ class Product:
 
     def get_stock(self):
         return self.__stock
+
+    def update_stock(self, quantity):
+        if quantity < 0:
+            raise ValueError("stock cannot be negative")
+        self.__stock = quantity
