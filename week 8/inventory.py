@@ -12,3 +12,6 @@ class Inventory:
             if product.get_product_id() == product_id:
                 return product
         return None
+
+    def get_products(self):
+        return list(self.__products)
