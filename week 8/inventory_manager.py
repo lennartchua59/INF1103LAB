@@ -68,3 +68,26 @@ def add_product(inventory):
 
     inventory.add_product(Product(product_id, name, price, stock))
     print("\nProduct added successfully!")
+
+
+def update_stock(inventory):
+    print("\nUpdate Stock")
+    product_id = input("Enter Product ID: ")
+    product = inventory.search_product(product_id)
+
+    if product is None:
+        print("\nProduct not found.")
+        return
+
+    print("\nProduct Found:")
+    print("Name:", product.get_name())
+    print("Current Stock:", product.get_stock())
+
+    try:
+        new_stock = int(input("\nNew Stock Quantity: "))
+        product.update_stock(new_stock)
+    except ValueError:
+        print("Error: please enter a whole number of 0 or more.")
+        return
+
+    print("\nStock updated successfully!")
