@@ -4,6 +4,7 @@ from contextlib import redirect_stdout
 from physical_product import PhysicalProduct
 from digital_product import DigitalProduct
 from product import Product
+from can_be_shipped import CanBeShipped
 
 
 def capture(product):
@@ -47,3 +48,14 @@ try:
 except TypeError as error:
     print("TypeError:", error)
     check("Product() raises TypeError", True)
+
+print("--- 4.2 CanBeShipped ---")
+light = PhysicalProduct("P002", "Mouse", 25.5, 60, 0.1)
+heavy = PhysicalProduct("P003", "Monitor", 299.99, 10, 6.0)
+for item in (light, guitar, heavy):
+    print(item.get_name(), "(" + str(item.get_weight()) + " kg) ships for $" + format(item.calculate_shipping_cost(), ".2f"))
+check("0.1 kg costs $5.20", abs(light.calculate_shipping_cost() - 5.2) < 0.001)
+check("3.5 kg costs $12.00", abs(guitar.calculate_shipping_cost() - 12.0) < 0.001)
+check("6.0 kg costs $17.00", abs(heavy.calculate_shipping_cost() - 17.0) < 0.001)
+check("PhysicalProduct is a CanBeShipped", isinstance(guitar, CanBeShipped))
+check("DigitalProduct is not a CanBeShipped", not isinstance(os_product, CanBeShipped))
