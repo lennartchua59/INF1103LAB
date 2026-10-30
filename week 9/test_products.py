@@ -32,3 +32,9 @@ check("physical shows common info from Product", "ID: P001" in physical_output a
 check("physical shows its own weight", "Weight: 3.5 kg" in physical_output)
 check("digital shows common info from Product", "ID: D001" in digital_output and "$99.00" in digital_output)
 check("digital shows its own download size", "Download Size: 4500 MB" in digital_output)
+
+print("--- 3.2 get_fulfilment_info() ---")
+print("Physical:", guitar.get_fulfilment_info())
+print("Digital:", os_product.get_fulfilment_info())
+check("physical fulfilment mentions shipping", "shipping" in guitar.get_fulfilment_info())
+check("digital fulfilment mentions digitally", "digitally" in os_product.get_fulfilment_info())
