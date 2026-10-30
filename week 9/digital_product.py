@@ -15,5 +15,11 @@ class DigitalProduct(Product):
         super().display_information()
         print("    Download Size:", self.__download_size, "MB")
 
+    def to_dict(self):
+        data = super().to_dict()
+        data["type"] = "digital"
+        data["download_size"] = self.__download_size
+        return data
+
     def get_fulfilment_info(self):
         return "Delivered digitally through a download link."
