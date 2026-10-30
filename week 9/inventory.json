@@ -1,0 +1,34 @@
+[
+    {
+        "id": "P001",
+        "name": "Guitar",
+        "price": 450.0,
+        "stock": 8,
+        "type": "physical",
+        "weight": 3.5
+    },
+    {
+        "id": "P002",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 60,
+        "type": "physical",
+        "weight": 0.1
+    },
+    {
+        "id": "D001",
+        "name": "Operating System",
+        "price": 99.0,
+        "stock": 100,
+        "type": "digital",
+        "download_size": 4500.0
+    },
+    {
+        "id": "D002",
+        "name": "Photo Editor",
+        "price": 59.99,
+        "stock": 200,
+        "type": "digital",
+        "download_size": 850.5
+    }
+]
