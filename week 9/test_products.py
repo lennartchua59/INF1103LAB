@@ -59,3 +59,19 @@ check("3.5 kg costs $12.00", abs(guitar.calculate_shipping_cost() - 12.0) < 0.00
 check("6.0 kg costs $17.00", abs(heavy.calculate_shipping_cost() - 17.0) < 0.001)
 check("PhysicalProduct is a CanBeShipped", isinstance(guitar, CanBeShipped))
 check("DigitalProduct is not a CanBeShipped", not isinstance(os_product, CanBeShipped))
+
+print("--- 7. Inventory operations and JSON data ---")
+from inventory import Inventory
+
+inventory = Inventory()
+inventory.add_product(guitar)
+inventory.add_product(os_product)
+check("inventory holds both product types", len(inventory.get_products()) == 2)
+check("search finds a physical product", inventory.search_product("P001") is guitar)
+check("search finds a digital product", inventory.search_product("D001") is os_product)
+check("search returns None for unknown ID", inventory.search_product("P999") is None)
+guitar.update_stock(8)
+check("update_stock changes the stock", guitar.get_stock() == 8)
+inventory.display_all()
+check("physical to_dict has type and weight", guitar.to_dict()["type"] == "physical" and guitar.to_dict()["weight"] == 3.5)
+check("digital to_dict has type and download_size", os_product.to_dict()["type"] == "digital" and os_product.to_dict()["download_size"] == 4500)
