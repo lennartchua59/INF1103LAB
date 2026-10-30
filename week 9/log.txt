@@ -1,0 +1,131 @@
+commit 2b37415798625e75d68f9a92074fc22add264a6f
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:43 2026 +0800
+
+    Week 9: 9 add git status/add/commit screenshot
+
+commit 394b5f2b57c4c4568fc0c7fa43aa675bb053bdfe
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:43 2026 +0800
+
+    Week 9: 9 add docker test run screenshot
+
+commit 415236e9f05b5a00272f92946db9efeb3ebb91ca
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:43 2026 +0800
+
+    Week 9: 9 add saved inventory.json screenshot
+
+commit 5ba3bb1fc918b0e280407cf7a1cf46b037436068
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:43 2026 +0800
+
+    Week 9: 9 add docker restart screenshot showing JSON reload
+
+commit 65d26549ff95ea08a642cc28eb232e60dec07825
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:43 2026 +0800
+
+    Week 9: 9 add docker run screenshot with input and output
+
+commit ee3933db416d8d5f907c5e413c398461ee364387
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:43 2026 +0800
+
+    Week 9: 9 add docker build screenshot
+
+commit 784a0edb101a06e3a18120013b9a7f2853be3e27
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:42 2026 +0800
+
+    Week 9: 7 add inventory.json saved from docker run (physical and digital products)
+
+commit d42a8cdc222853be674ac613befcae990b0fbce1
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:27 2026 +0800
+
+    Week 9: 9 add .gitignore and Dockerfile
+
+commit bae2dc9560606251a397f286753cbb3cd36b0d01
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:15 2026 +0800
+
+    Week 9: 7 add inventory and JSON data tests to test_products.py
+
+commit 94addd820857e6d2c06a2b302bd08efcd846b0c1
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:15 2026 +0800
+
+    Week 9: 6 add updated UML class diagram
+
+commit d5069102faae68ae534ff9fd99eca0e0de736eaf
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:23:14 2026 +0800
+
+    Week 9: 5 integrate physical/digital products into inventory manager with typed JSON save/load
+
+commit f59f9a6036a950910986791b4163c702fd28eaa2
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:49 2026 +0800
+
+    Week 9: 5 add to_dict() so products can be saved to JSON with a type
+
+commit 5dfbfc2f97451dbcb6c395ca0a40685774f257f7
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:49 2026 +0800
+
+    Week 9: 4.2 PhysicalProduct implements CanBeShipped with shipping cost
+
+commit 998335479d5f63d292fca54dc2c857b1f57f1a8c
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:49 2026 +0800
+
+    Week 9: 4.1 add CanBeShipped interface
+
+commit 03734aba382efc76523804e92c337182dd7e5a6f
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 3.3 test that abstract Product cannot be instantiated
+
+commit e80b1eee02b21224d3123e7d94c8f1ca23817bad
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 3.2 implement get_fulfilment_info() in both subclasses
+
+commit 4d44fdd7154bd90fece141021cd8f5a1e0c21c96
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 3.1 make Product abstract with get_fulfilment_info()
+
+commit caa7a5f82036244ebea48cdf7ecf6843b7580bea
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 2.2 test overridden display_information() output
+
+commit b30ff0b00aeb75d60ed4a03a9e2c664ea873ec26
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 2.1 override display_information() using super()
+
+commit 3bde6e8a246a96e17387345647585edbcee1df03
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 1.3 add DigitalProduct class with download size
+
+commit 91105ae70c968053c4f64f3cf94215413c14119c
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 1.2 add PhysicalProduct class with weight
+
+commit 0cae197f255ab2d4c0eab82405f2762be7804489
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Oct 30 16:22:17 2026 +0800
+
+    Week 9: 1.1 review Lab 6 base (Product and Inventory classes)
