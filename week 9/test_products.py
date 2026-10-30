@@ -3,6 +3,7 @@ from contextlib import redirect_stdout
 
 from physical_product import PhysicalProduct
 from digital_product import DigitalProduct
+from product import Product
 
 
 def capture(product):
@@ -38,3 +39,11 @@ print("Physical:", guitar.get_fulfilment_info())
 print("Digital:", os_product.get_fulfilment_info())
 check("physical fulfilment mentions shipping", "shipping" in guitar.get_fulfilment_info())
 check("digital fulfilment mentions digitally", "digitally" in os_product.get_fulfilment_info())
+
+print("--- 3.3 Abstract Product cannot be instantiated ---")
+try:
+    Product("X001", "Generic", 10.0, 1)
+    check("Product() raises TypeError", False)
+except TypeError as error:
+    print("TypeError:", error)
+    check("Product() raises TypeError", True)
