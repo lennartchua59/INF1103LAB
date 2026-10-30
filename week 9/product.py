@@ -1,5 +1,8 @@
-class Product:
-    """Represents and manages a single product."""
+from abc import ABC, abstractmethod
+
+
+class Product(ABC):
+    """Abstract base class for every product (physical or digital)."""
 
     def __init__(self, product_id, name, price, stock):
         self.__product_id = product_id
@@ -28,3 +31,8 @@ class Product:
         print("ID:", self.__product_id, "| Name:", self.__name,
               "| Price: $" + format(self.__price, ".2f"),
               "| Stock:", self.__stock)
+
+    @abstractmethod
+    def get_fulfilment_info(self):
+        """Describe how this product is delivered to the customer."""
+        pass
