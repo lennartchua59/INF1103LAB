@@ -2,13 +2,12 @@ import io
 from contextlib import redirect_stdout
 
 from physical_product import PhysicalProduct
-from digital_product import DigitalProduct
+from dockertest import DigitalProduct
 from product import Product
 from can_be_shipped import CanBeShipped
 
 
 def capture(product):
-    """Run display_information() and return what it printed."""
     buffer = io.StringIO()
     with redirect_stdout(buffer):
         product.display_information()

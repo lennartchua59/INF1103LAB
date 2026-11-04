@@ -2,7 +2,6 @@ from product import Product
 
 
 class DigitalProduct(Product):
-    """A product that is delivered as a download."""
 
     def __init__(self, product_id, name, price, stock, download_size):
         super().__init__(product_id, name, price, stock)

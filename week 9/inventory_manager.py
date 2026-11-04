@@ -2,14 +2,13 @@ import json
 import os
 
 from physical_product import PhysicalProduct
-from digital_product import DigitalProduct
+from dockertest import DigitalProduct
 from inventory import Inventory
 
 FILENAME = "inventory.json"
 
 
 def create_product(item):
-    """Build the right Product subclass from a saved dictionary."""
     if item["type"] == "physical":
         return PhysicalProduct(item["id"], item["name"], item["price"],
                                item["stock"], item["weight"])
