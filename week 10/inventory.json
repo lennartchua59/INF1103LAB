@@ -4,6 +4,11 @@
         "name": "Guitar",
         "price": 450.0,
         "stock": 8,
+        "supplier": {
+            "supplier_id": "S000",
+            "name": "Unknown Supplier",
+            "contact_email": "none@example.com"
+        },
         "type": "physical",
         "weight": 3.5
     },
@@ -12,6 +17,11 @@
         "name": "Mouse",
         "price": 25.5,
         "stock": 60,
+        "supplier": {
+            "supplier_id": "S000",
+            "name": "Unknown Supplier",
+            "contact_email": "none@example.com"
+        },
         "type": "physical",
         "weight": 0.1
     },
@@ -20,6 +30,11 @@
         "name": "Operating System",
         "price": 99.0,
         "stock": 100,
+        "supplier": {
+            "supplier_id": "S000",
+            "name": "Unknown Supplier",
+            "contact_email": "none@example.com"
+        },
         "type": "digital",
         "download_size": 4500.0
     },
@@ -28,6 +43,11 @@
         "name": "Photo Editor",
         "price": 59.99,
         "stock": 200,
+        "supplier": {
+            "supplier_id": "S000",
+            "name": "Unknown Supplier",
+            "contact_email": "none@example.com"
+        },
         "type": "digital",
         "download_size": 850.5
     }

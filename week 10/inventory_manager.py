@@ -1,20 +1,30 @@
 import json
 import os
 
+from product import Product
 from physical_product import PhysicalProduct
 from dockertest import DigitalProduct
 from inventory import Inventory
+from supplier import Supplier
 
 FILENAME = "inventory.json"
 
 
-def create_product(item):
+DEFAULT_SUPPLIER = Supplier("S000", "Unknown Supplier", "none@example.com")
+
+
+def create_supplier(data: dict) -> Supplier:
+    return Supplier(data["supplier_id"], data["name"], data["contact_email"])
+
+
+def create_product(item: dict) -> Product:
+    supplier = create_supplier(item["supplier"]) if "supplier" in item else DEFAULT_SUPPLIER
     if item["type"] == "physical":
         return PhysicalProduct(item["id"], item["name"], item["price"],
-                               item["stock"], item["weight"])
+                               item["stock"], supplier, item["weight"])
     if item["type"] == "digital":
         return DigitalProduct(item["id"], item["name"], item["price"],
-                              item["stock"], item["download_size"])
+                              item["stock"], supplier, item["download_size"])
     raise ValueError("unknown product type: " + str(item["type"]))
 
 
@@ -69,6 +79,10 @@ def add_product(inventory):
         return
 
     name = input("Product Name: ")
+    supplier_id = input("Supplier ID: ")
+    supplier_name = input("Supplier Name: ")
+    supplier_email = input("Supplier Email: ")
+    supplier = Supplier(supplier_id, supplier_name, supplier_email)
 
     try:
         price = float(input("Price: "))
@@ -89,12 +103,12 @@ def add_product(inventory):
         if weight < 0:
             print("Error: weight cannot be negative.")
             return
-        inventory.add_product(PhysicalProduct(product_id, name, price, stock, weight))
+        inventory.add_product(PhysicalProduct(product_id, name, price, stock, supplier, weight))
     else:
         if download_size < 0:
             print("Error: download size cannot be negative.")
             return
-        inventory.add_product(DigitalProduct(product_id, name, price, stock, download_size))
+        inventory.add_product(DigitalProduct(product_id, name, price, stock, supplier, download_size))
 
     print("\nProduct added successfully!")
 
@@ -135,6 +149,7 @@ def search_product(inventory):
     print("-" * 48)
     product.display_information()
     print(" ", product.get_fulfilment_info())
+    product.display_supplier_information()
     print("-" * 48)
 
 
