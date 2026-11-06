@@ -1,0 +1,77 @@
+commit b0194ca963172c936a7b61ab0205ed388c1a0c13
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:49:12 2026 +0800
+
+    images evidence upload
+
+commit d991a7cfe57214cd04a4c9dc16410f0504131183
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:21:34 2026 +0800
+
+    Week 10: fix UML labels and layout
+
+commit 5a362cdbf79900225b682f02561eca340e06adbe
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:20:32 2026 +0800
+
+    Week 10: add UML class diagram (diagrams.net source)
+
+commit b3b3d68a2d0a2bbc4524194cb684cfcce46e22ee
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:20:09 2026 +0800
+
+    Week 10: add Predict First notes document
+
+commit d373223b51c84638e6f0cb49b04fdaea882ffb2b
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:49 2026 +0800
+
+    Week 10: add run_all_tests runner for Docker
+
+commit af803cc081c56f10080bd9fb1bf24f368cbf5fdc
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:49 2026 +0800
+
+    Week 10: add LSP and polymorphism tests
+
+commit 59acb1d6ecde0d2caa8cb8141b723e2d136789ef
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:41 2026 +0800
+
+    Week 10: add Order composed of OrderLine objects
+
+commit 4f5846957964cfbe7a0eec8a184f9d274ed7c7a9
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:41 2026 +0800
+
+    Week 10: add OrderLine class with calculate_subtotal
+
+commit ce0cd2c5f590ee43e8de44ba069873581bb81df8
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:32 2026 +0800
+
+    Week 10: Inventory aggregation with add/remove/find and type hints
+
+commit 6a54d1b8ea510ace0ac81d23916046becc308565
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:32 2026 +0800
+
+    Week 10: load/save suppliers in inventory manager
+
+commit 5373b08d73dabbc9c54adcf6cc4640470af64634
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:25 2026 +0800
+
+    Week 10: associate Product with Supplier, add type hints to product classes
+
+commit 4545073bc81d92c4884e06bb5a82c596a9af5c7f
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:18 2026 +0800
+
+    Week 10: add Supplier class with type hints
+
+commit 7d35822ae8491a14d1008c1dc9eee86c73df04d5
+Author: Lennart Chua <lennartchua59@gmail.com>
+Date:   Fri Nov 6 16:19:04 2026 +0800
+
+    Week 10: add lab PDF and copy Week 9 baseline
