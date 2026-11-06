@@ -1,6 +1,6 @@
 from supplier import Supplier
 from physical_product import PhysicalProduct
-from dockertest import DigitalProduct
+from digital_product import DigitalProduct
 
 
 def check(description: str, condition: bool) -> None:

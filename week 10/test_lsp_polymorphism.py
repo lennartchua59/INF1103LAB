@@ -1,7 +1,7 @@
 from product import Product
 from supplier import Supplier
 from physical_product import PhysicalProduct
-from dockertest import DigitalProduct
+from digital_product import DigitalProduct
 from inventory import Inventory
 
 

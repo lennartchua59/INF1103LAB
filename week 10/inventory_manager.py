@@ -3,7 +3,7 @@ import os
 
 from product import Product
 from physical_product import PhysicalProduct
-from dockertest import DigitalProduct
+from digital_product import DigitalProduct
 from inventory import Inventory
 from supplier import Supplier
 
